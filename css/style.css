@@ -1,0 +1,251 @@
+
+.container {
+	margin: 0 auto;
+	width: 1170px;
+}
+
+/*
+Переменные
+
+
+*/
+
+
+/*
+
+Верстка хедера 
+
+*/
+.header {
+	background: url('../img/2.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 0 0;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+	
+	color: #FFFFFF;
+	
+	border: 1px solid #000000;
+	margin: 0 0 121px 0;
+}
+.logo{
+
+
+}
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 700px;
+	align-items: center;
+}
+.header-info {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 34px 0;
+	width: 926px;
+	border-bottom: 2px solid white;
+}
+.info-phone {
+}
+.info-phone:before {
+	content: '';
+	background: url('../img/phone-icon.png') no-repeat;
+	padding: 0 0 30px 60px;
+}
+.info-adres {
+}
+.logo {
+	
+
+}
+.logo-text{
+	color: #DFB444;
+	font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 56px;
+
+}
+.nav-menu {
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 34px 0;
+	width: 689px;
+	border-bottom: 2px solid white;
+}
+.nav-item {
+}
+.header-scroll-bottom {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	background-image: url("../img/strelka.png");
+	background-size: cover;
+	background-position: center;
+	border: none;
+	outline: none;
+	position: relative;
+	margin: 0 0 100px 0;
+	background-color: white;
+	border-radius: 50%;
+	animation: moveUpDown 2s ease-in-out infinite;
+}
+
+
+/* 
+Футер
+*/
+
+.footer {
+	background: #000000;
+	color: white;
+	font-family: 'Rubik';
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+	letter-spacing: 0.1em;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 36px 0 54px 0;
+}
+.nav-list_footer {
+	max-width: 50%;
+}
+.nav-title {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 0.1em;
+	padding: 0 0 44px 0;
+}
+.footer-list {
+	display: flex;
+	width: 250px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer-item {
+	padding: 0 0 44px 0;
+}
+.social {
+	max-width: 50%;
+	
+}
+.social-title {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 0.1em;
+	padding: 0 0 44px 0;
+}
+.social-icons {
+	display: flex;
+	margin: 0 0 35px 0;
+}
+.icon-inst{
+	padding: 0 0 0 35px;
+}
+.phone-footer {
+	margin: 0 0 45px 0;
+	/*content: '';
+	background: url('/img/phone-icon.png') no-repeat;
+	padding: 0 0 30px 60px;
+	*/
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mail {
+}
+.logo-footer {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.1em;
+	border-top: 1px solid white;
+	padding: 21px 0 31px 0;
+}
+
+
+
+/* 
+Главная
+*/
+
+.main {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+}
+.container {
+}
+.main-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 25px 0;
+}
+.card-img {
+}
+.card-img img{
+	height: 80%;
+}
+.card {
+	width: 60%;
+}
+.card:hover{
+
+}
+.card-title {
+	margin: 0 0 60px 0;
+	border-bottom: 2px solid black;
+	padding: 0 0 14px 0;
+
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+}
+.card-description {
+	margin: 0 0 60px 0;
+}
+.card-button {
+	font-family: 'Rubik';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+}
+.animaet-yvelichenie{
+	transition: transform 0.3s ease;
+}
+
+.animaet-yvelichenie:hover {
+	transform: scale(1.1);
+}
+
+.animaet-yvelichenie2{
+	transition: transform 0.3s ease;
+}
+
+.animaet-yvelichenie2:hover {
+	transform: scale(1.2);
+}
+

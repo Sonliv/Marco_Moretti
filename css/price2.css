@@ -1,0 +1,84 @@
+/*
+	background: url('/img/phone-icon.png') no-repeat;
+	padding: 0 0 30px 60px;
+*/
+.price {
+		font-family: 'Rubik';
+		letter-spacing: 0.1em;
+}
+.price-wrapper {
+}
+.price-title {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 57px;
+	margin: 0 0 98px 0;
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 0 0 106px 0;
+}
+.price-description {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	margin: 0 0 100px 0;
+	font-family: Montserrat;
+}
+.sub-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	margin: 0 0 109px 0;
+}
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card {
+	width: 328px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 0 107px 0;
+	background-image: url('/img/card-back--poshiv.png');
+	box-shadow: 15px 15px 4px 0px #00000040;
+	
+}
+.card-title_poshiv {
+	font-family: 'Rubik';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	margin: 20px 0 29px 0;
+}
+.card-item{
+	margin: 0 0 26px 0; 
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
+	background: url('/img/free-icon-checked-130878\ 1.png') no-repeat;
+	padding: 0 0 5px 37px;
+}
+.card-item:last-child {
+	margin: 30px 0 0 0;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	background: none;
+	padding: 0 10px 0 0;
+	text-align: center;
+}
+.card-item-close{
+	background: url('/img/free-icon-close-10397708\ 1.png') no-repeat;
+	padding: 0 0 5px 37px;
+}
+.img-card_poshiv{
+	margin: 0 0 32px 0;
+}

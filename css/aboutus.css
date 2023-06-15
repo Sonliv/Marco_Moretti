@@ -1,0 +1,55 @@
+.header-about{
+	background: url('../img/картинка\ хеадер.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 0 0;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+	
+	color: #FFFFFF;
+	
+	border: 1px solid #000000;
+}
+.about-us{
+	background: url('../img/картинка\ о\ нас.png') no-repeat;
+	background-size: cover;
+	/*margin: -140px 0 0 0;*/
+	color: white;
+}
+.about-us_wrapper{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 41px;
+	letter-spacing: 0.1em;
+}
+.about-us__subtitle {
+	padding: 190px 0 0 0;
+	text-align: center;
+	margin: 0 0 120px 0;
+
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 57px;
+	text-align: center;
+}
+.about-us__text {
+	padding: 0 0 100px 0;
+}
+.header{
+	margin: 0 0 -70px 0;
+}
+
+.animate-slide {
+	opacity: 0;
+	transform: translateX(-100px);
+	transition: opacity 1s ease-in, transform 1s ease-in;
+ }
+
+ .animate-slide.active {
+	opacity: 1;
+	transform: translateX(0);
+ }
